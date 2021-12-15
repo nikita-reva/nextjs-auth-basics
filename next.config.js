@@ -11,4 +11,13 @@ module.exports = (phase) => {
       },
     };
   }
+  return {
+    env: {
+      NEXTAUTH_URL: 'https://example.com',
+      mongodb_username: 'NextDatabaseTestUser',
+      mongodb_password: 'TYdXC4PlCKGJ0h96',
+      mongodb_clustername: 'cluster0',
+      mongodb_database: 'auth',
+    },
+  };
 };
